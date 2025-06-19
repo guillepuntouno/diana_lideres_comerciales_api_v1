@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36203.30 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIANA.Maestros", "DIANA.Maestros\DIANA.Maestros.csproj", "{53B9BEB3-F3B3-48D5-9176-2FAB48241284}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53B9BEB3-F3B3-48D5-9176-2FAB48241284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53B9BEB3-F3B3-48D5-9176-2FAB48241284}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53B9BEB3-F3B3-48D5-9176-2FAB48241284}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53B9BEB3-F3B3-48D5-9176-2FAB48241284}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {193D55C8-0352-4094-8832-F302CB1F5C27}
+	EndGlobalSection
+EndGlobal

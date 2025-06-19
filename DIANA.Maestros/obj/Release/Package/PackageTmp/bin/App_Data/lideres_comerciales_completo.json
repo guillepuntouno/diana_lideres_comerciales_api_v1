@@ -1,0 +1,226 @@
+[
+  {
+    "clave": "LID001",
+    "nombre": "LIDER CS - GRUPO A",
+    "pais": "El Salvador",
+    "centroDistribucion": "Centro de Servicio",
+    "rutas": [
+      {
+        "nombre": "RUTACSD02",
+        "asesor": "Doris Gómez",
+        "negocios": [
+          {
+            "clave": "1002-1",
+            "nombre": "Tienda La Esquinita",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "1002-2",
+            "nombre": "Tienda El Ahorro",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "1002-3",
+            "nombre": "Tienda Doña Marta",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "1002-4",
+            "nombre": "Tienda El Buen Precio",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "1002-5",
+            "nombre": "Tienda Mi Barrio",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "1002-6",
+            "nombre": "Tienda El Amigo",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "1002-7",
+            "nombre": "Tienda San José",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "1002-8",
+            "nombre": "Tienda El Centro",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "1002-9",
+            "nombre": "Tienda Los Primos",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "1002-10",
+            "nombre": "Tienda El Roble",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "1002-11",
+            "nombre": "Tienda La Esperanza",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "1002-12",
+            "nombre": "Tienda Don Chepe",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "1002-13",
+            "nombre": "Tienda El Portal",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "1002-14",
+            "nombre": "Tienda La Bendición",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "clave": "LID002",
+    "nombre": "LIDER SA - GRUPO A",
+    "pais": "El Salvador",
+    "centroDistribucion": "Distribuidora Santa Ana",
+    "rutas": [
+      {
+        "nombre": "RUTASAD02",
+        "asesor": "Doris Gómez",
+        "negocios": [
+          {
+            "clave": "2002-1",
+            "nombre": "Tienda La Esquinita",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "2002-2",
+            "nombre": "Tienda El Ahorro",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "2002-3",
+            "nombre": "Tienda Doña Marta",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "2002-4",
+            "nombre": "Tienda El Buen Precio",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "2002-5",
+            "nombre": "Tienda Mi Barrio",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "2002-6",
+            "nombre": "Tienda El Amigo",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "2002-7",
+            "nombre": "Tienda San José",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "2002-8",
+            "nombre": "Tienda El Centro",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "2002-9",
+            "nombre": "Tienda Los Primos",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "2002-10",
+            "nombre": "Tienda El Roble",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01"
+          },
+          {
+            "clave": "2002-11",
+            "nombre": "Tienda La Esperanza",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 02"
+          },
+          {
+            "clave": "2002-12",
+            "nombre": "Tienda Don Chepe",
+            "canal": "Canal D1",
+            "clasificacion": "C",
+            "exhibidor": "No tiene"
+          },
+          {
+            "clave": "2002-13",
+            "nombre": "Tienda El Portal",
+            "canal": "Canal D1",
+            "clasificacion": "A",
+            "exhibidor": "Exhibidor 01, Exhibido 02"
+          },
+          {
+            "clave": "2002-14",
+            "nombre": "Tienda La Bendición",
+            "canal": "Canal D1",
+            "clasificacion": "B",
+            "exhibidor": "Exhibidor 01"
+          }
+        ]
+      }
+    ]
+  }
+]

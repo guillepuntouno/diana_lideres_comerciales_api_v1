@@ -1,0 +1,269 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|c:\\users\\gmartinezjr\\source\\repos\\diana.maestros\\diana.maestros\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\app_start\\webapiconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\app_data\\lideres_comerciales_completo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\app_data\\lideres_comerciales_completo.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\app_data\\lid001_24_viernes_1002-1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\app_data\\lid001_24_viernes_1002-1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\app_data\\visitas\\lid001_24_viernes_1002-1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\app_data\\visitas\\lid001_24_viernes_1002-1.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\controllers\\visitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\controllers\\visitascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\controllers\\valuescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\controllers\\planescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\controllers\\liderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\controllers\\liderescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\models\\negocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\models\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\models\\ruta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\models\\lidercomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\models\\lidercomercial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\models\\plantrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\models\\plantrabajo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\diana.maestros\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53B9BEB3-F3B3-48D5-9176-2FAB48241284}|DIANA.Maestros\\DIANA.Maestros.csproj|solutionrelative:diana.maestros\\data\\mockdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 335,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{2456bd12-ecf7-4988-a4a6-67d49173f565}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LID001_24_viernes_1002-1.json",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\LID001_24_viernes_1002-1.json",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\App_Data\\LID001_24_viernes_1002-1.json",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\LID001_24_viernes_1002-1.json",
+              "RelativeToolTip": "DIANA.Maestros\\App_Data\\LID001_24_viernes_1002-1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-16T20:49:20.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T20:56:09.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "WebApiConfig.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Start\\WebApiConfig.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\App_Start\\WebApiConfig.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Start\\WebApiConfig.cs",
+              "RelativeToolTip": "DIANA.Maestros\\App_Start\\WebApiConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:29:03.801Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LID001_24_viernes_1002-1.json",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\visitas\\LID001_24_viernes_1002-1.json",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\App_Data\\visitas\\LID001_24_viernes_1002-1.json",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\visitas\\LID001_24_viernes_1002-1.json",
+              "RelativeToolTip": "DIANA.Maestros\\App_Data\\visitas\\LID001_24_viernes_1002-1.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-15T21:11:19.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ValuesController.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\ValuesController.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Controllers\\ValuesController.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\ValuesController.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Controllers\\ValuesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-15T21:09:11.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VisitasController.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\VisitasController.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Controllers\\VisitasController.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\VisitasController.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Controllers\\VisitasController.cs",
+              "ViewState": "AgIAACIBAAAAAAAAAAAuwAoBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T14:10:32.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PlanTrabajo.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\PlanTrabajo.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Models\\PlanTrabajo.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\PlanTrabajo.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Models\\PlanTrabajo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAgwA8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:52:05.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PlanesController.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\PlanesController.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Controllers\\PlanesController.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\PlanesController.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Controllers\\PlanesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:51:12.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Global.asax.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Global.asax.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T09:30:01.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lideres_comerciales_completo.json",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\lideres_comerciales_completo.json",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\App_Data\\lideres_comerciales_completo.json",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\App_Data\\lideres_comerciales_completo.json",
+              "RelativeToolTip": "DIANA.Maestros\\App_Data\\lideres_comerciales_completo.json",
+              "ViewState": "AgIAAIcAAAAAAAAAAAAAAJQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-13T08:10:34.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "MockData.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Data\\MockData.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Data\\MockData.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Data\\MockData.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Data\\MockData.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAAADcAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:59:17.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LideresController.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\LideresController.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Controllers\\LideresController.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Controllers\\LideresController.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Controllers\\LideresController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:57:45.388Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LiderComercial.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\LiderComercial.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Models\\LiderComercial.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\LiderComercial.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Models\\LiderComercial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:57:13.473Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Ruta.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\Ruta.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Models\\Ruta.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\Ruta.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Models\\Ruta.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:56:48.604Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Negocio.cs",
+              "DocumentMoniker": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\Negocio.cs",
+              "RelativeDocumentMoniker": "DIANA.Maestros\\Models\\Negocio.cs",
+              "ToolTip": "C:\\Users\\GMARTINEZJR\\source\\repos\\DIANA.Maestros\\DIANA.Maestros\\Models\\Negocio.cs",
+              "RelativeToolTip": "DIANA.Maestros\\Models\\Negocio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-13T07:56:28.217Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

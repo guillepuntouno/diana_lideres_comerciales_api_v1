@@ -1,0 +1,123 @@
+{
+  "PlanId": "LID001_SEM24",
+  "LiderClave": "LID001",
+  "Semana": 24,
+  "FechaCreacion": "2025-06-13T05:02:28.8737831-05:00",
+  "Datos": {},
+  "datos": {
+    "semana": {
+      "lunes": {
+        "dia": "Lunes",
+        "objetivo": "Gestión de cliente",
+        "tipo": "gestion_cliente",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": null,
+        "comentario": "Ruta abajo de PE",
+        "clientesAsignados": [],
+        "completado": false
+      },
+      "semana": "SEMANA 24 - 2025",
+      "fechaInicio": "16/06/2025",
+      "fechaFin": "20/06/2025",
+      "liderNombre": "LIDER CS - GRUPO A",
+      "centroDistribucion": "Centro de Servicio",
+      "estatus": "borrador",
+      "martes": {
+        "dia": "Martes",
+        "objetivo": "Gestión de cliente",
+        "tipo": "gestion_cliente",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": null,
+        "comentario": null,
+        "clientesAsignados": [
+          {
+            "clienteId": "1002-1",
+            "clienteNombre": "Tienda La Esquinita",
+            "clienteDireccion": "Dirección no disponible",
+            "clienteTipo": "mayoreo",
+            "visitado": false,
+            "fechaVisita": null
+          },
+          {
+            "clienteId": "1002-2",
+            "clienteNombre": "Tienda El Ahorro",
+            "clienteDireccion": "Dirección no disponible",
+            "clienteTipo": "mayoreo",
+            "visitado": false,
+            "fechaVisita": null
+          }
+        ],
+        "completado": false
+      },
+      "miércoles": {
+        "dia": "Miércoles",
+        "objetivo": "Actividad administrativa",
+        "tipo": "administrativo",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": "Entrevistas",
+        "comentario": null,
+        "clientesAsignados": [],
+        "completado": false
+      },
+      "jueves": {
+        "dia": "Jueves",
+        "objetivo": "Actividad administrativa",
+        "tipo": "administrativo",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": "Vacaciones",
+        "comentario": null,
+        "clientesAsignados": [],
+        "completado": false
+      },
+      "viernes": {
+        "dia": "Martes",
+        "objetivo": "Gestión de cliente",
+        "tipo": "gestion_cliente",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": null,
+        "comentario": null,
+        "clientesAsignados": [
+          {
+            "clienteId": "1002-1",
+            "clienteNombre": "Tienda La Esquinita",
+            "clienteDireccion": "Dirección no disponible",
+            "clienteTipo": "mayoreo",
+            "visitado": false,
+            "fechaVisita": null
+          },
+          {
+            "clienteId": "1002-2",
+            "clienteNombre": "Tienda El Ahorro",
+            "clienteDireccion": "Dirección no disponible",
+            "clienteTipo": "mayoreo",
+            "visitado": false,
+            "fechaVisita": null
+          }
+        ],
+        "completado": false
+      },
+      "sábado": {
+        "dia": "Sábado",
+        "objetivo": "Actividad administrativa",
+        "tipo": "administrativo",
+        "centroDistribucion": "Centro de Servicio",
+        "rutaId": "RUTACSD02",
+        "rutaNombre": "RUTACSD02",
+        "tipoActividad": "Día festivo",
+        "comentario": null,
+        "clientesAsignados": [],
+        "completado": false
+      }
+    }
+  }
+}

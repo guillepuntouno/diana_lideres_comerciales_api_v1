@@ -1,0 +1,22 @@
+{
+  "VisitaId": "LID001_24_viernes_1002-1",
+  "LiderClave": "LID001",
+  "ClienteId": "1002-1",
+  "ClienteNombre": "Tienda La Esquinita",
+  "PlanId": "SIN_PLAN",
+  "Dia": "viernes",
+  "FechaCreacion": "2025-06-13T09:17:19.217711-05:00",
+  "CheckIn": {
+    "Timestamp": "2025-06-13T09:17:19.2207145-05:00",
+    "Comentarios": "",
+    "Ubicacion": {
+      "Latitud": 0.0,
+      "Longitud": 0.0,
+      "Precision": 0.0,
+      "Direccion": ""
+    }
+  },
+  "CheckOut": null,
+  "Formularios": {},
+  "Estatus": "en_proceso"
+}

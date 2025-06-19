@@ -1,0 +1,95 @@
+{
+  "VisitaId": "LID001_24_viernes_1002-2",
+  "LiderClave": "LID001",
+  "ClienteId": "1002-2",
+  "ClienteNombre": "Tienda El Ahorro",
+  "PlanId": "SIN_PLAN",
+  "Dia": "viernes",
+  "FechaCreacion": "2025-06-13T11:45:00.4162176-05:00",
+  "CheckIn": {
+    "Timestamp": "2025-06-13T11:45:00.4162176-05:00",
+    "Comentarios": "",
+    "Ubicacion": {
+      "Latitud": 0.0,
+      "Longitud": 0.0,
+      "Precision": 0.0,
+      "Direccion": ""
+    }
+  },
+  "CheckOut": {
+    "Timestamp": "2025-06-13T11:48:56.3995523-05:00",
+    "Comentarios": "",
+    "Ubicacion": {
+      "Latitud": 0.0,
+      "Longitud": 0.0,
+      "Precision": 0.0,
+      "Direccion": ""
+    },
+    "DuracionMinutos": 0
+  },
+  "Formularios": {
+    "evaluacion_desarrollo_campo": {
+      "seccion1": {
+        "poseeExhibidorAdecuado": true,
+        "tipoExhibidorSeleccionado": null,
+        "modeloExhibidorSeleccionado": null,
+        "cantidadExhibidores": 1,
+        "exhibidoresAsignados": []
+      },
+      "seccion2": {
+        "primeraPosition": true,
+        "planograma": true,
+        "portafolioFoco": true,
+        "anclaje": true
+      },
+      "seccion3": {
+        "ristras": true,
+        "max": true,
+        "familiar": true,
+        "dulce": true,
+        "galleta": true
+      },
+      "seccion4": {
+        "compromisos": [
+          {
+            "id": "1749833137039",
+            "tipo": "Venta de Innovación",
+            "detalle": "Código: Diana Sport",
+            "cantidad": 2,
+            "fecha": "2025-06-14T00:00:00",
+            "fechaFormateada": "14/06/2025",
+            "clienteId": "1002-2",
+            "rutaId": "RUTACSD02 (mayoreo)",
+            "status": "PENDIENTE",
+            "createdAt": "2025-06-13T11:45:37.039"
+          },
+          {
+            "id": "1749833157666",
+            "tipo": "Refuerzo de categoría",
+            "detalle": "Innovación",
+            "cantidad": 3,
+            "fecha": "2025-06-28T00:00:00",
+            "fechaFormateada": "28/06/2025",
+            "clienteId": "1002-2",
+            "rutaId": "RUTACSD02 (mayoreo)",
+            "status": "PENDIENTE",
+            "createdAt": "2025-06-13T11:45:57.666"
+          }
+        ],
+        "tipoCompromisoSeleccionado": null,
+        "detalleCompromisoSeleccionado": null,
+        "cantidadCompromiso": 1,
+        "fechaCompromiso": null
+      },
+      "seccion5": {
+        "retroalimentacion": "test",
+        "reconocimiento": "test 2"
+      },
+      "fechaActualizacion": "2025-06-13T11:48:52.002",
+      "version": "1.0"
+    }
+  },
+  "Estatus": "completada",
+  "FechaModificacion": "2025-06-13T11:48:52.0147291-05:00",
+  "FechaFinalizacion": "2025-06-13T11:48:56.3995523-05:00"
+}
