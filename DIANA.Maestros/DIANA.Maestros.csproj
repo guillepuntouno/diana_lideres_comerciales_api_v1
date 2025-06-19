@@ -74,6 +74,12 @@
     <Reference Include="System.Web.Cors, Version=5.3.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Cors.5.3.0\lib\net45\System.Web.Cors.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -179,15 +185,33 @@
     <Compile Include="Controllers\PlanesController.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="Controllers\VisitasController.cs" />
+    <Compile Include="Data\DianaDbContext.cs" />
     <Compile Include="Data\MockData.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DTOs\LiderComercialDto.cs" />
+    <Compile Include="Models\DTOs\PlanTrabajoDto.cs" />
+    <Compile Include="Models\DTOs\VisitaCreateDto.cs" />
+    <Compile Include="Models\DTOs\VisitaResponseDto.cs" />
+    <Compile Include="Models\Entities\CompromisoEntity.cs" />
+    <Compile Include="Models\Entities\LiderComercialEntity.cs" />
+    <Compile Include="Models\Entities\NegocioEntity.cs" />
+    <Compile Include="Models\Entities\PlanDiaClienteEntity.cs" />
+    <Compile Include="Models\Entities\PlanDiaEntity.cs" />
+    <Compile Include="Models\Entities\PlanTrabajoEntity.cs" />
+    <Compile Include="Models\Entities\RutaEntity.cs" />
+    <Compile Include="Models\Entities\VisitaEntity.cs" />
+    <Compile Include="Models\Entities\VisitaFormularioEntity.cs" />
     <Compile Include="Models\LiderComercial.cs" />
     <Compile Include="Models\Negocio.cs" />
     <Compile Include="Models\PlanTrabajo.cs" />
     <Compile Include="Models\Ruta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\ILiderComercialRepository.cs" />
+    <Compile Include="Repositories\IVisitaRepository.cs" />
+    <Compile Include="Repositories\LiderComercialRepository.cs" />
+    <Compile Include="Repositories\VisitaRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
@@ -238,6 +262,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="App_Data\planes\LID001_SEM24.json" />
+    <Content Include="Documentation\DatabaseIntegration.md" />
     <None Include="Scripts\jquery-3.7.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.0.js" />
     <Content Include="Scripts\jquery-3.7.0.min.js" />
