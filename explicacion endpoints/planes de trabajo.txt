@@ -1,0 +1,126 @@
+ ✅ PlanesController VERSION 2 Completado
+
+  He refactorizado exitosamente el PlanesController con Entity Framework. Aquí está el resumen:
+
+  🔄 Cambios Realizados:
+
+  1. Versión 1 comentada - Toda la funcionalidad JSON original mantiene las mismas URLs
+  2. Versión 2 implementada con Entity Framework - Todas las URLs funcionan igual
+
+  🎯 Endpoints Migrados:
+
+  | Método | URL                                 | Funcionalidad                        |
+  |--------|-------------------------------------|--------------------------------------|
+  | POST   | /api/planes                         | Crear plan de trabajo                |
+  | GET    | /api/planes/{clave}/semana/{semana} | Obtener plan específico              |
+  | PUT    | /api/planes                         | Actualizar plan por ID               |
+  | GET    | /api/planes/lider/{clave}           | Obtener todos los planes de un líder |
+
+  🏗️  Componentes Creados:
+
+  1. IPlanTrabajoRepository - Interface del repositorio
+  2. PlanTrabajoRepository - Implementación con Entity Framework
+  3. Métodos async - Todas las operaciones son asíncronas
+  4. Manejo de relaciones - Planes → Días → Clientes asignados
+  5. Mapeo Entity ↔ DTO - Conversión limpia entre capas
+
+  🔧 Funcionalidades Mejoradas:
+
+  - ✅ Validación de datos antes de insertar
+  - ✅ Manejo de errores mejorado
+  - ✅ Operaciones CRUD completas en base de datos
+  - ✅ Carga de relaciones optimizada con Include
+  - ✅ Dispose pattern para liberar recursos
+  - ✅ Compatibilidad total con frontend existente
+
+  🧪  Para Probar:
+
+  Los endpoints están listos para pruebas. Las URLs son exactamente las mismas que antes, solo que ahora usan SQL
+  Server en lugar de archivos JSON.
+
+  ¿Quieres probar algún endpoint específico o prefieres continuar con otro controller?
+
+> si tenemos esto en base de datos, ¿como pruebo el endpoint? que le paso a la url:PlanId    LiderClave    Semana
+    Anio    FechaCreacion    FechaActualizacion    Estatus
+  LID001_SEM24    LID001    24    2025    2025-06-13 05:02:28.873    NULL    borrador
+
+● Perfecto, tienes datos en la base de datos. Te muestro cómo probar cada endpoint del PlanesController:
+
+  🧪 Cómo Probar los Endpoints
+
+  1. GET - Obtener plan específico
+
+  GET http://localhost:60148/api/planes/LID001/semana/24
+  Este debería devolver el plan que tienes en la BD.
+
+  2. GET - Obtener todos los planes de un líder
+
+  GET http://localhost:60148/api/planes/lider/LID001
+  Este debería devolver una lista con el plan LID001_SEM24.
+
+  3. POST - Crear nuevo plan
+
+  POST http://localhost:60148/api/planes
+  Content-Type: application/json
+
+  {
+      "liderClave": "LID001"
+  }
+  Esto creará un plan para la semana actual (probablemente semana 25 si estamos en junio).
+
+  4. PUT - Actualizar plan existente
+
+  PUT http://localhost:60148/api/planes
+  Content-Type: application/json
+
+  {
+      "planId": "LID001_SEM24",
+      "datos": {
+          "lunes": {
+              "dia": "Lunes",
+              "objetivo": "Gestión de cliente",
+              "tipo": "gestion_cliente",
+              "centroDistribucion": "Centro de Servicio",
+              "rutaId": "RUTACSD02",
+              "rutaNombre": "RUTACSD02",
+              "tipoActividad": null,
+              "comentario": "Ruta actualizada",
+              "completado": false,
+              "clientesAsignados": []
+          }
+      }
+  }
+
+  🔧 Herramientas para Probar:
+
+  Opción 1: Postman
+
+  - Importa las URLs de arriba
+  - Configura los headers cuando sea necesario
+
+  Opción 2: Navegador (solo GET)
+
+  - Copia y pega las URLs GET directamente en el navegador
+
+  Opción 3: cURL
+
+  # GET plan específico
+  curl "http://localhost:60148/api/planes/LID001/semana/24"
+
+  # GET todos los planes del líder
+  curl "http://localhost:60148/api/planes/lider/LID001"
+
+  📝 ¿Qué Deberías Ver?
+
+  1. Para GET semana/24: Debería devolver el plan con estructura JSON completa
+  2. Para GET lider/LID001: Debería devolver un array con el plan
+  3. Para POST: Debería crear un nuevo plan para la semana actual
+  4. Para PUT: Debería actualizar el plan existente
+
+  ¿Con cuál endpoint quieres empezar? Te recomiendo comenzar con el GET más simple:
+  GET http://localhost:60148/api/planes/LID001/semana/24
+
+╭───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╮
+│ >                                                                                                                                                                                                                                         │
+╰───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────╯
+  ⏵⏵ auto-accept edits on (shift+tab to cycle)

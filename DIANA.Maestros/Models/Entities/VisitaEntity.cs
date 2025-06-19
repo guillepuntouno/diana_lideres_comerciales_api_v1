@@ -31,19 +31,19 @@ namespace DIANA.Maestros.Models.Entities
         public DateTime FechaCreacion { get; set; }
 
         // Check-in data
-        public DateTime? CheckInTimestamp { get; set; }
+        public string CheckInTimestamp { get; set; }
         public string CheckInComentarios { get; set; }
-        public decimal? CheckInLatitud { get; set; }
-        public decimal? CheckInLongitud { get; set; }
-        public decimal? CheckInPrecision { get; set; }
+        public double? CheckInLatitud { get; set; }
+        public double? CheckInLongitud { get; set; }
+        public double? CheckInPrecision { get; set; }
         public string CheckInDireccion { get; set; }
 
         // Check-out data
-        public DateTime? CheckOutTimestamp { get; set; }
+        public string CheckOutTimestamp { get; set; }
         public string CheckOutComentarios { get; set; }
-        public decimal? CheckOutLatitud { get; set; }
-        public decimal? CheckOutLongitud { get; set; }
-        public decimal? CheckOutPrecision { get; set; }
+        public double? CheckOutLatitud { get; set; }
+        public double? CheckOutLongitud { get; set; }
+        public double? CheckOutPrecision { get; set; }
         public string CheckOutDireccion { get; set; }
         public int? DuracionMinutos { get; set; }
 
@@ -71,7 +71,7 @@ namespace DIANA.Maestros.Models.Entities
         [ForeignKey("PlanId")]
         public virtual PlanTrabajoEntity Plan { get; set; }
 
-        // TEMPORALMENTE COMENTADO - Navigation property for forms
-        // public virtual VisitaFormularioEntity Formulario { get; set; }
+        // Navigation property for forms
+        public virtual VisitaFormularioEntity Formulario { get; set; }
     }
 }

@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using DIANA.Maestros.Data;
+using DIANA.Maestros.Models.DTOs;
 using DIANA.Maestros.Models.Entities;
 
 namespace DIANA.Maestros.Repositories
@@ -24,12 +25,13 @@ namespace DIANA.Maestros.Repositories
             return visita;
         }
 
-        public async Task<VisitaEntity> ObtenerVisitaPorIdAsync(string visitaId)
+        public async Task<VisitaEntity> ObtenerVisitaPorClaveAsync(string visitaId)
         {
-            return await _context.Visitas
-                // TEMPORALMENTE COMENTADO - .Include(v => v.Formulario)
-                // TEMPORALMENTE COMENTADO - .Include(v => v.Formulario.Compromisos)
+            var visita = await _context.Visitas
+                .Include(v => v.Formulario)
                 .FirstOrDefaultAsync(v => v.VisitaId == visitaId);
+
+            return visita;
         }
 
         public async Task<VisitaEntity> ActualizarVisitaAsync(VisitaEntity visita)
@@ -42,57 +44,104 @@ namespace DIANA.Maestros.Repositories
         public async Task<IEnumerable<VisitaEntity>> ObtenerVisitasPorLiderAsync(string liderClave)
         {
             return await _context.Visitas
-                // TEMPORALMENTE COMENTADO - .Include(v => v.Formulario)
+                .Include(v => v.Formulario)
                 .Where(v => v.LiderClave == liderClave)
                 .OrderByDescending(v => v.FechaCreacion)
                 .ToListAsync();
         }
 
-        public async Task<IEnumerable<VisitaEntity>> ObtenerVisitasPorDiaAsync(string liderClave, string dia)
+        public async Task<IEnumerable<VisitaEntity>> ObtenerVisitasPorLiderYDiaAsync(string liderClave, string dia)
         {
             return await _context.Visitas
-                // TEMPORALMENTE COMENTADO - .Include(v => v.Formulario)
+                .Include(v => v.Formulario)
                 .Where(v => v.LiderClave == liderClave && v.Dia == dia)
                 .OrderByDescending(v => v.FechaCreacion)
                 .ToListAsync();
         }
 
-        public async Task<bool> CancelarVisitaAsync(string visitaId, string motivo)
+        public async Task<IEnumerable<VisitaEntity>> ObtenerVisitasPorRangoFechasAsync(string liderClave, DateTime fechaInicio, DateTime fechaFin)
         {
-            var visita = await _context.Visitas.FindAsync(visitaId);
-            if (visita == null) return false;
+            return await _context.Visitas
+                .Include(v => v.Formulario)
+                .Where(v => v.LiderClave == liderClave && 
+                       v.FechaCreacion >= fechaInicio && 
+                       v.FechaCreacion <= fechaFin)
+                .OrderByDescending(v => v.FechaCreacion)
+                .ToListAsync();
+        }
+
+        public async Task<bool> ExisteVisitaAsync(string visitaId)
+        {
+            return await _context.Visitas.AnyAsync(v => v.VisitaId == visitaId);
+        }
+
+        public async Task ActualizarFormularioAsync(string visitaId, FormularioDto formularioDto)
+        {
+            var visita = await _context.Visitas
+                .Include(v => v.Formulario)
+                .FirstOrDefaultAsync(v => v.VisitaId == visitaId);
+
+            if (visita == null) return;
+
+            if (visita.Formulario == null)
+            {
+                visita.Formulario = new VisitaFormularioEntity
+                {
+                    VisitaId = visitaId
+                };
+                _context.VisitaFormularios.Add(visita.Formulario);
+            }
+
+            // Actualizar formulario
+            visita.Formulario.PoseeExhibidorAdecuado = formularioDto.PoseeExhibidorAdecuado;
+            visita.Formulario.CantidadExhibidores = formularioDto.CantidadExhibidores;
+            visita.Formulario.PrimeraPosition = formularioDto.PrimeraPosition;
+            visita.Formulario.Planograma = formularioDto.Planograma;
+            visita.Formulario.PortafolioFoco = formularioDto.PortafolioFoco;
+            visita.Formulario.Anclaje = formularioDto.Anclaje;
+            visita.Formulario.Ristras = formularioDto.Ristras;
+            visita.Formulario.Max = formularioDto.Max;
+            visita.Formulario.Familiar = formularioDto.Familiar;
+            visita.Formulario.Dulce = formularioDto.Dulce;
+            visita.Formulario.Galleta = formularioDto.Galleta;
+            visita.Formulario.Retroalimentacion = formularioDto.Retroalimentacion;
+            visita.Formulario.Reconocimiento = formularioDto.Reconocimiento;
+            visita.Formulario.FechaActualizacion = DateTime.Now;
+
+            // Actualizar visita
+            visita.FechaModificacion = DateTime.Now;
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task FinalizarVisitaAsync(string visitaId, CheckOutDto checkOutDto)
+        {
+            var visita = await _context.Visitas.FirstOrDefaultAsync(v => v.VisitaId == visitaId);
+            if (visita == null) return;
+
+            visita.CheckOutTimestamp = checkOutDto.Timestamp ?? DateTime.Now.ToString("o");
+            visita.CheckOutComentarios = checkOutDto.Comentarios ?? "";
+            visita.CheckOutLatitud = checkOutDto.Ubicacion?.Latitud ?? 0.0;
+            visita.CheckOutLongitud = checkOutDto.Ubicacion?.Longitud ?? 0.0;
+            visita.CheckOutPrecision = checkOutDto.Ubicacion?.Precision ?? 0.0;
+            visita.CheckOutDireccion = checkOutDto.Ubicacion?.Direccion ?? "";
+            visita.DuracionMinutos = checkOutDto.DuracionMinutos;
+            visita.Estatus = "completada";
+            visita.FechaFinalizacion = DateTime.Now;
+
+            await _context.SaveChangesAsync();
+        }
+
+        public async Task CancelarVisitaAsync(string visitaId, string motivo)
+        {
+            var visita = await _context.Visitas.FirstOrDefaultAsync(v => v.VisitaId == visitaId);
+            if (visita == null) return;
 
             visita.Estatus = "cancelada";
             visita.MotivoCancelacion = motivo;
             visita.FechaCancelacion = DateTime.Now;
 
             await _context.SaveChangesAsync();
-            return true;
-        }
-
-        public async Task<object> ObtenerResumenVisitasAsync(string liderClave, DateTime? fechaInicio, DateTime? fechaFin)
-        {
-            var inicio = fechaInicio ?? DateTime.Now.AddDays(-30);
-            var fin = fechaFin ?? DateTime.Now;
-
-            var visitas = await _context.Visitas
-                .Where(v => v.LiderClave == liderClave && 
-                       v.FechaCreacion >= inicio && 
-                       v.FechaCreacion <= fin)
-                .ToListAsync();
-
-            var resumen = new
-            {
-                TotalVisitas = visitas.Count,
-                Completadas = visitas.Count(v => v.Estatus == "completada"),
-                EnProceso = visitas.Count(v => v.Estatus == "en_proceso"),
-                Canceladas = visitas.Count(v => v.Estatus == "cancelada"),
-                FechaInicio = inicio.ToString("yyyy-MM-dd"),
-                FechaFin = fin.ToString("yyyy-MM-dd"),
-                Visitas = visitas
-            };
-
-            return resumen;
         }
     }
 }

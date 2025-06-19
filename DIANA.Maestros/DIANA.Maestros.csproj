@@ -209,8 +209,10 @@
     <Compile Include="Models\Ruta.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ILiderComercialRepository.cs" />
+    <Compile Include="Repositories\IPlanTrabajoRepository.cs" />
     <Compile Include="Repositories\IVisitaRepository.cs" />
     <Compile Include="Repositories\LiderComercialRepository.cs" />
+    <Compile Include="Repositories\PlanTrabajoRepository.cs" />
     <Compile Include="Repositories\VisitaRepository.cs" />
   </ItemGroup>
   <ItemGroup>

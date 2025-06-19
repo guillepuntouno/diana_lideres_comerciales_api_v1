@@ -62,22 +62,7 @@ namespace DIANA.Maestros.Data
                 .WithRequired(c => c.PlanDia)
                 .HasForeignKey(c => c.PlanDiaId);
 
-            // Configure decimal precision for coordinates
-            modelBuilder.Entity<VisitaEntity>()
-                .Property(v => v.CheckInLatitud)
-                .HasPrecision(18, 6);
-
-            modelBuilder.Entity<VisitaEntity>()
-                .Property(v => v.CheckInLongitud)
-                .HasPrecision(18, 6);
-
-            modelBuilder.Entity<VisitaEntity>()
-                .Property(v => v.CheckOutLatitud)
-                .HasPrecision(18, 6);
-
-            modelBuilder.Entity<VisitaEntity>()
-                .Property(v => v.CheckOutLongitud)
-                .HasPrecision(18, 6);
+            // Coordinates are now double type (no precision configuration needed)
 
             base.OnModelCreating(modelBuilder);
         }
